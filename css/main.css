@@ -1,0 +1,114 @@
+/* ===================main=================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(240, 239, 237, 0.1);
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+}
+
+/* ===================header=================== */
+
+header {
+  background-color: #e3f2fd;
+  margin-bottom: 10px;
+}
+
+.img-brand {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar {
+    color: green;
+}
+
+.menu__item {
+  margin: 20px 0px 0 30px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: green;
+}
+
+/* ===================sidebar=================== */
+
+.left-sidebar {
+  padding-left: 0;
+  border: 0;
+  /* border-radius: 30%; - не работает, надо сделать */
+}
+
+.nav-tabs .nav-link {
+  border: 0;
+}
+
+.sidebar__item {
+  background: linear-gradient(to right, #F0EBE2, #FDFDFD);
+  color: black;
+}
+
+.sidebar__item:hover {
+  background-image: url(../img/mandala_sidebar.png);
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  /* background-size: 80%; интересный вариант */
+  background-size: 15%;
+}
+
+
+/* ===================first screen=================== */
+.article {
+  text-align: justify;
+  overflow-y: hidden;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 550px;
+}
+
+.more {
+  margin-bottom: 6%;
+}
+
+/* ===================footer=================== */
+
+.footer {
+  margin-top: 1em;
+  padding: 2em;
+  background-color: #3f3f3f;
+}
+
+.social a {
+  font-size: 2em;
+  padding: 20px;
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.contacts {
+  color: #CACA6C;
+}
+
+.fa-instagram {
+  color:  #AB3C9B;
+}
+
+.fa-vk {
+  color: #4E8ED6;
+}
+
+.fa-facebook-square {
+  color: #1774EB;
+}
+
+/* ===================media=================== */
+
+@media
